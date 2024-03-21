@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element Selector CSS</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        #idSelector{
+            border: 2px solid blue;
+            margin: 10px;
+        }
+        .classSelector{
+            border: 2px solid red;
+        }
+        .moreClasstoOne{
+            margin: 10px;
+            padding: 10px, 10px, 10px, 10px;
+        }
+        .colorGreen{
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+    <div id="idSelector">
+        <h1>You can use id selector</h1>
+    </div>
+    <div class="classSelector moreClasstoOne">
+        <h1>You can use class selector</h1>
+    </div>
+    <div class="colorGreen moreClasstoOne">
+        <h1>You can reuse class</h1>
+    </div>
+</body>
+</html>

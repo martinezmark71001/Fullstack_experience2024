@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Element Selector</title>
+    <style>
+        ul{
+            list-style-type: none;
+        }
+        li{
+            display: inline-block;
+        }
+        li p{
+            color: red;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <ul>
+                <li><p>ITEM 1</p></li>
+                <li><p>ITEM 2</p></li>
+                <li><p>ITEM 3</p></li>
+            </ul>
+        </div>
+    </div>
+    <p>ITEM 4</p>
+</body>
+</html>
